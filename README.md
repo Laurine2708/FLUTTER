@@ -1,16 +1,13 @@
-# my_first_app
+Projet flutter
+Description :
 
-A new Flutter project.
+Application Flutter permettant de créer et gérer des voyages avec des activités.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Fonctionnalités :
+  - Rechercher une ville
+  - Créer un voyage
+  - Choisir une date
+  - Ajouter des activités
+  - Marquer une activité comme terminée
+  - Voir la météo
+  - Voir une activité sur la carte
