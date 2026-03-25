@@ -1,5 +1,5 @@
 # Projet flutter : application mobile de voyage
-Description :
+## Description :
 
 Application Flutter permettant de créer et gérer des voyages avec des activités.
 
