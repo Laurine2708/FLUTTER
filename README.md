@@ -12,6 +12,11 @@ Fonctionnalités :
   - Voir la météo
   - Voir une activité sur la carte
 
+## Technologies utilisées
+
+* Dart
+* Flutter
+* MongoDB
 
 # Démarrage du projet
 
