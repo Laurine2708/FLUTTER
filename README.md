@@ -1,4 +1,4 @@
-Projet flutter
+# Projet flutter : application mobile de voyage
 Description :
 
 Application Flutter permettant de créer et gérer des voyages avec des activités.
@@ -14,6 +14,12 @@ Fonctionnalités :
 
 
 # Démarrage du projet
+
+## Cloner le projet :
+
+```
+git clone https://github.com/votre-utilisateur/nom-du-projet.git
+```
 
 ## 1️) Démarrer le serveur backend
   Ouvrir un terminal, se placcer dans le dossier "backend" et exécuter :
