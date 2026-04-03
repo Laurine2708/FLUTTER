@@ -21,10 +21,10 @@ class TripWeather extends StatelessWidget {
   /// Clé API pour accéder au service.
   final String apiKey = '&appid=f5dd5d8df05953a6da3b3676bf708ee0';
 
-  /// Clé API pour accéder au service.
+  /// Constructeur du widget prenant en paramètre le nom de la ville.
   const TripWeather({super.key, required this.cityName});
 
-  /// Constructeur du widget.
+  /// Retourne l'URL complète de la requête HTTP pour récupérer la météo.
   String get query => '$hostBase$cityName$apiKey';
 
   /// Appel HTTP pour récupérer les données météo.

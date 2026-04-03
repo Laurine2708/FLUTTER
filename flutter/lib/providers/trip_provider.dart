@@ -26,7 +26,7 @@ class TripProvider extends ChangeNotifier {
   ///
   /// `10.0.2.2` permet à l’émulateur Android d’accéder
   /// au localhost de la machine de développement.
-  //final String host = 'localhost';
+  //final String host = '192.168.1.13';
   final String host = '10.0.2.2';
 
   /// Liste interne contenant les voyages récupérés depuis l’API.

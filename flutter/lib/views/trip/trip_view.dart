@@ -16,7 +16,15 @@ class TripView extends StatelessWidget {
   /// Nom de la route pour la navigation.
   static const String routeName = '/trip';
 
-  /// Nom de la route pour la navigation.
+  /// Construit l’interface utilisateur de la page TripView.
+  ///
+  /// Cette méthode assemble :
+  /// — la bannière de la ville via [TripCityBar],
+  /// — le widget météo via [TripWeather],
+  /// — la liste des activités via [TripActivities].
+  ///
+  /// Elle récupère également les arguments passés à la page (nom de la ville et ID du voyage)
+  /// et utilise le [CityProvider] pour récupérer les informations de la ville.
   @override
   Widget build(BuildContext context) {
     /// Récupération des arguments passés via la navigation.
@@ -42,10 +50,10 @@ class TripView extends StatelessWidget {
             /// Bannière avec image + bouton retour + nom de la ville.
             TripCityBar(city: city),
 
-            /// Bannière avec image + bouton retour + nom de la ville.
+            /// Widget affichant la météo de la ville.
             TripWeather(cityName: cityName),
 
-            /// Widget affichant la météo de la ville.
+            /// Affiche les activités du voyage
             TripActivities(tripId: tripId),
           ],
         ),

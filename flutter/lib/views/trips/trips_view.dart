@@ -46,6 +46,7 @@ class TripsView extends StatelessWidget {
         drawer: const DymaDrawer(),
 
         /// Corps de la page.
+        /// Les données sont-elles en train de charger ?
         body: tripProvider.isLoading != true
             /// Si les données sont chargées
             ? tripProvider.trips.length > 0
@@ -61,7 +62,7 @@ class TripsView extends StatelessWidget {
                               .toList(),
                         ),
 
-                        /// Onglet : voyages à venir
+                        /// Onglet : voyages passés
                         TripList(
                           trips: tripProvider.trips
                               .where(

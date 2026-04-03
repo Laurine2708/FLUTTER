@@ -40,7 +40,7 @@ class _HomeState extends State<HomeView> {
   /// par l'utilisateur dans la barre de recherche.
   TextEditingController searchController = TextEditingController();
 
-  // Initialisation du widget.
+  /// Initialisation du widget.
   ///
   /// Un listener est ajouté au contrôleur de recherche
   /// afin de mettre à jour l'interface lorsque
