@@ -26,8 +26,8 @@ class CityProvider extends ChangeNotifier {
   ///
   /// `10.0.2.2` est utilisé pour accéder au **localhost de la machine**
   /// depuis l’émulateur Android.
-  final String host = '192.168.1.13';
-  //final String host = '10.0.2.2';
+  //final String host = '192.168.1.13';
+  final String host = '10.0.2.2';
 
   /// Liste interne contenant les villes récupérées depuis l’API.
   List<City> _cities = [];
